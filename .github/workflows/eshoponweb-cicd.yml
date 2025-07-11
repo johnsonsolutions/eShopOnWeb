@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: rg-eshoponweb-wonderlust
+  RESOURCE-GROUP: rg-eshoponweb-agentpool
   LOCATION: eastus
   TEMPLATE-FILE: infra/webapp.bicep
   SUBSCRIPTION-ID: f12ce5a9-d6cb-45cb-a0e4-4a4e6d1c1e67
